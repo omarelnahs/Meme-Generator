@@ -15,7 +15,6 @@ export default function Meme() {
     
     return (
         <main>
-                <p>{url}</p>
             <div className="form">
                 <input 
                     type="text"
@@ -34,6 +33,8 @@ export default function Meme() {
                     Get a new meme image 🖼
                 </button>
             </div>
+            <img src={url} alt="img" />
         </main>
+        
     )
 }
